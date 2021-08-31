@@ -10,10 +10,7 @@ Text Domain: https://kenzie.com.br/
 
 --------------------------------------------
 ESTRUTURAÇÃO BASE
---------------------------------------------
-**** DECLARAÇÃO DE VARIÁVEIS
-**** ESTILOS GERAIS
-**** BODY
+--------------------- 
 **** HEADER
 **** FOOTER
 **** PÁGINA INICIAL
@@ -44,6 +41,7 @@ img{
 }
 div.flex{
     display: flex;
+
 }
 div.full-container{
     width: 100%;
@@ -67,7 +65,8 @@ html{}
 /* HTML */
   
 /* BODY */
-body{}
+body{
+}
 /* BODY */
   
 /* HEADER */
@@ -80,6 +79,74 @@ footer{}
 
 /* INICIAL */
 main{}
+img{
+    width: 50%;
+}
+.secaoCalendar__cabecalho h2{
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 35px;
+    margin: 10px 0px;
+}
+.secaoCalendar__cabecalho p{
+   font-size: 30px; 
+}
+.secaoCalendar p,li,h3{
+    font-family: 'Lato', sans-serif;
+}
+.calendario-data-rodape span{
+    font-size: 36px;
+    margin:30px 0px 5px 0px;
+}
+.calendario h3{
+    font-size: 22px;
+    color: black;
+    margin:30px 10px 30px 10px
+}
+.calendario p{
+    font-size: 19px;
+    margin:10px 10px 30px 10px;
+}
+.calendario-data{
+    font-size: 36px;
+    color: #FFFFFF;
+    background-color: #00043e;
+    display: block;
+    padding: 40px 30px;
+}
+.calendario button{
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #007aff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 80px;
+    font-family: 'Lato', sans-serif;
+    margin:10px 0px 30px 0px;
+}
+
+.calendario-data-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #818181;
+    
+}
+.calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calendario li{
+    width: 250px;
+    margin: 50px;
+    border: 2px solid #00043e;
+    color: #818181;
+    display: block;
+    text-align: center;   
+}
+.secaoCalendar__cabecalho{
+    text-align: center;
+}
 /* INICIAL */
 
 /* EXTRAS */
