@@ -110,6 +110,46 @@ footer{}
 /* FOOTER */
 
 /* INICIAL */
+/*Seção Destaque*/
+.secaoDestaque{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkblue-background);
+    padding-bottom: 50px;
+}
+.secaoDestaque__title{
+    color: #FFFFFF;
+    font-family: var(--h2-fontFamily);
+    font-size: 63px;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+}
+.secaoDestaque__subtitle{
+    color: #FFFFFF;
+    font-family: var(--text-fontFamily);
+    font-size: 23px;
+    padding: 5px;
+}
+.secaoDestaqueFormulario{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+.secaoDestaqueFormulario input{
+   width: 130px;
+}
+
+#destaque__btn{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: var(--text-fontFamily);
+    background-color: #007aff;
+    border: none;     
+}
 img{
     width: 100px;
     height: 100px;
