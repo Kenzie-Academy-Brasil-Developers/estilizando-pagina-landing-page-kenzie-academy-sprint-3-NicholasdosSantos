@@ -319,6 +319,7 @@ main{
     text-align: center;
     padding-bottom: 20px;
 }
+
 .list-item{
     display: flex;
     flex-direction: column;
