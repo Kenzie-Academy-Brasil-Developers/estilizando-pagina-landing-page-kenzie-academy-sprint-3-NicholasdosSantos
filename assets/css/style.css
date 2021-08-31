@@ -150,6 +150,83 @@ footer{}
     background-color: #007aff;
     border: none;     
 }
+/*Seção Sobre*/
+
+.secaoSobre{
+    display: flex;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#python-title{
+    font-size: 24px;
+    padding-top: 100px ;
+}
+.flex-box__python{
+    width: 240px;
+}
+.flex-box__python p{
+    font-family: var(--text-fontFamily);
+    font-size: 19px;
+    line-height: 1.5;
+    padding: 40px 10px;
+}
+#python-span{
+    color: #818181;
+    line-height: 1.5;
+    font-family: var(--text-fontFamily);
+    padding-bottom: 20px;
+}
+#python-btn{
+    width: 100%;
+    border: solid 1px #818181;
+    background-color: #FFFFFF;
+    font-family: var(--text-fontFamily);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 19px;
+}
+#flex-col__python-img{
+    width: 270px;
+    height: 170px;
+}
+.flex-box__java{
+    width: 100%;
+    background-color: #ECECEC;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#flex-col__java-img{
+    width: 100px;
+    height: 100px;
+    padding: 20px 0px 10px 0px;
+}
+.flex-col-java h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--h2-fontFamily);
+    padding: 0px 100px 20px 100px;
+}
+#java-list{
+    padding: 40px 100px;
+    line-height: 1.5;
+    list-style-type: disc;
+    color: #818181;
+
+}
 img{
     width: 100px;
     height: 100px;
