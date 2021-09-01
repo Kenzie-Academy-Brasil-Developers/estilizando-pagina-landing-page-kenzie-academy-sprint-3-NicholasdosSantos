@@ -47,6 +47,11 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
 div.flex{
     display: flex;
 
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #818181;
+    font-size: 15px;
+
 }
 div.full-container{
     width: 100%;
@@ -106,6 +111,54 @@ body{
   
 /* FOOTER */
 footer{}
+
+
+
+
+
+img{
+    width: 40%;
+}
+
+
+
+
+
+
+
+.flex-col{
+    
+}
+.form-input-model label{
+    display: none;
+}
+.flex-col{
+    margin-left: 50px;
+    line-height: 2;
+}
+#contact2{
+    color: black;
+    display: none;
+}
+#contact1{
+    color: #303030;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+.secaoContato-informacoes p{
+    font-family: 'Lato', sans-serif;
+}
+.secaoContato-informacoes__ul a{
+    color: #818181;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+.secaoContato-informacoes ul{
+    color: #818181;  
+}
 /* FOOTER */
 
 /* INICIAL*/
