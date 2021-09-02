@@ -188,6 +188,11 @@ footer{
     width: 20px;
     margin-right: 3px;
 }
+ footer img{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 20px;
+}
 
 /* FOOTER */
 
