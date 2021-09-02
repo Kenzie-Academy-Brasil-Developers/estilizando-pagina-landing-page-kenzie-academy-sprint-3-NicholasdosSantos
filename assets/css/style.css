@@ -117,9 +117,12 @@ footer{
 .form-input-model label{
     display: none;
 }
+.secaoContato{
+    width: 100%;
+}
 .secaoContato .flex{
     display: block;
-    margin: 15% 0 15% 15%;
+    padding: 15% 0 15% 20%;
     width: 75%;
 }
 .secaoContato .flex .flex-col{
@@ -136,6 +139,7 @@ footer{
     margin: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
+    text-transform: uppercase;
 }
 .secaoContato-informacoes{
 
@@ -153,7 +157,7 @@ footer{
 }
 .form-input-model input{
     border: 1px solid #818181;
-    width: 230px;
+    width: 100%;
     color: #818181;
     padding: 10px;
     margin: 10px 0 10px 0;
@@ -162,7 +166,7 @@ footer{
 }
 .form-input-model textarea{
     border: 1px solid #818181;
-    width: 230px;
+    width: 100%;
     height: 150px;
     color: #818181;
     padding: 5px;
@@ -172,12 +176,12 @@ footer{
 }
 #formSubmit{
     position: relative;
-    left: 180px;
+    left: 75%;
     border: 1px solid #818181; 
     border-radius: 5px;
     padding: 9px
 }
-.infoIcon a img{
+.infoIcon {
     height: 20px;
     width: 20px;
     margin-right: 3px;
@@ -258,6 +262,7 @@ main{
 .secaoCalendar__cabecalho{
     text-align: center;
 }
+
 /*Seção Destaque*/
 .secaoDestaque{
     width: 100%;
