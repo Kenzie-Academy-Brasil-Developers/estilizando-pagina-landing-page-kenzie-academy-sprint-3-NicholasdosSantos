@@ -173,7 +173,6 @@
       <ul class="calendario">
 
         <li>
-          <div class="teste">
           <span class="calendario-data">22/02</span>
           </div>
           <h3>HTML/CSS</h3>
@@ -181,7 +180,6 @@
           <div class="calendario-data-rodape">
             <span>7mp</span>
             <button>Sign Up</button>
-          </div>
         </li>
 
         <li>
@@ -237,23 +235,23 @@
           <h2 id="contact2">Contact</h2>
           
           <form action="">
+            <div class="formInputs">
+              <div class="form-input-model">
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Name" id="nome" name="nome">
+              </div>
 
-            <div class="form-input-model">
-              <label for="nome">Nome</label>
-              <input type="text" placeholder="Name" id="nome" name="nome">
-            </div>
+              <div class="form-input-model">
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="E-mail" id="email" name="email">
+              </div>
 
-            <div class="form-input-model">
-              <label for="email">E-mail</label>
-              <input type="text" placeholder="E-mail" id="email" name="email">
-            </div>
-
-            <div class="form-input-model">
-              <label for="mensagem">E-mail</label>
-              <textarea name="mensagem" id="mensagem"> mensagem</textarea>
-            </div>
-
-            <input type="submit" value="Send" id="formSubmit">
+              <div class="form-input-model">
+                <label for="mensagem">E-mail</label>
+                <textarea name="mensagem" id="mensagem"> mensagem</textarea>
+              </div>
+          </div>
+            <input id="formSubmit" type="submit" value="Send">
 
           </form>
 
@@ -266,7 +264,8 @@
   </main>
 
   <footer>
-    <p>Kenzie Academy - <a href="kenzie.com.br">kenzie.com.br</a></p>
+    <img src="./assets/img/icons8-double-up-48.png" alt="seta para cima">
+    <p class="footerText">Kenzie Academy - <a href="kenzie.com.br">kenzie.com.br</a></p>
   </footer>
 
   <script src="assets/js/script.js"></script>
