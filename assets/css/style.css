@@ -90,7 +90,7 @@ body{
 .large-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     max-width: 1170px;
@@ -101,11 +101,11 @@ body{
     height: 50px;
 }
 .menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 13px;
+    display: none;
+}
+.icon-menu{
+    width: 40px;
+    height: 40px;
 }
 /* HEADER */
   
@@ -293,19 +293,33 @@ main{
 .secaoDestaqueFormulario{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 10px;
-    
+    width: 80%;
 }
 .secaoDestaqueFormulario input{
-   width: 130px;
+   font-family: 'Lato';
+    border-radius: 5px 0px 0px 5px;
+    font-size: 14px;
+    border-width: 0ch;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 50%;
 }
 
 #destaque__btn{
+    color: #fff;
+    background-color: #477AFF;
     font-size: 14px;
-    color: #FFFFFF;
-    font-family: var(--text-fontFamily);
-    background-color: #007aff;
-    border: none;     
+    border: #07043E;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Lato';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;  
+    cursor: pointer; 
 }
 /*Seção Sobre*/
 
@@ -393,7 +407,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px ;
+    padding-top: 50px;
 }
 .secaoCursos__title{
     text-align: center;
@@ -451,11 +465,81 @@ img{
   
 
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
-  
-    @media screen and (min-width: 800px) {}
- 
     @media screen and (min-width: 768px) {
+        .large-container{
+            justify-content: space-between;
+        }
+        .icon-menu{
+            display: none;
+        }
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 13px;
+        }
+        .menu li{
+            margin: 0px 5px;
+            font-family: var(--text-fontFamily);
+            color: #FFFFFF;
+        }
+        .secaoDestaque {
+            background-image: url(/assets/img/background-destaque.webp);
+            color: #fff;
+            text-align: center;
+            font-size: 21px; 
+            padding-bottom: 20px;   
+        }
+        #destaque__btn:hover{
+            background-color: #07043E;
+        }
+        .flex-col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .flex-box__python{
+            width: 900px;
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 50px;
+        }
+        #python-btn{
+            width: 100px;
+        }
+        #flex-col__python-img {
+            width: 400px;
+            height: 270px;
+        }
+
+        .flex-box__java{
+            flex-direction: row;
+            width: 100vw;
+        }
+        .flex-col-java h2 {
+            padding: 50px 100px 0px 100px;
+        }
+        #flex-col__java-img{
+            width: 200px;
+            height: 200px;
+            padding-left: 50px;
+        }
+        .secaoCursos__list{
+            width: 100vw;
+        }
+        .lista1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .lista2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
         /* CALENDAR */
         .calendario{
             flex-direction: row;
@@ -557,4 +641,5 @@ img{
         /* FOOTER */
         
     }    
+
 /* MEDIA QUERIES */
